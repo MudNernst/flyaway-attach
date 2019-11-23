@@ -1,0 +1,357 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=10,IE=9,IE=8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+<title>逗比根据地 ShadowsocksR 一键脚本，自带加速，ssr.sh - V2Ray中文网</title>
+    <script type='text/javascript' src='/wp-includes/js/comment-reply.min.js?ver=5.1.1'></script>
+<script>
+window._deel = {name: 'V2Ray中文网',url: 'https://v2raycn.com/wp-content/themes/yusi', ajaxpager: '', commenton: 1, roll: [1,2]}
+</script>
+
+<!-- This site is optimized with the Yoast SEO plugin v12.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="ShadowsocksR 一键脚本（ssr.sh）是逗比根据地站长开发并维护的一个 ShadowsocksR 脚本，脚本除了可以一键安装 SSR 外，还可以限制用户速度、限制端口设备数、一键安装加速（锐速、BBR），是一个功能比较全面的 ShadowsocksR 脚本。"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://v2raycn.com/65.html" />
+<meta property="og:locale" content="zh_CN" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="逗比根据地 ShadowsocksR 一键脚本，自带加速，ssr.sh - V2Ray中文网" />
+<meta property="og:description" content="ShadowsocksR 一键脚本（ssr.sh）是逗比根据地站长开发并维护的一个 ShadowsocksR 脚本，脚本除了可以一键安装 SSR 外，还可以限制用户速度、限制端口设备数、一键安装加速（锐速、BBR），是一个功能比较全面的 ShadowsocksR 脚本。" />
+<meta property="og:url" content="https://v2raycn.com/65.html" />
+<meta property="og:site_name" content="V2Ray中文网" />
+<meta property="article:tag" content="BBR" />
+<meta property="article:tag" content="ShadowsocksR" />
+<meta property="article:tag" content="ShadowsocksR 脚本" />
+<meta property="article:tag" content="ssr.sh" />
+<meta property="article:tag" content="逗比根据地" />
+<meta property="article:tag" content="锐速" />
+<meta property="article:section" content="ShadowsocksR" />
+<meta property="article:published_time" content="2019-07-05T04:18:10+00:00" />
+<meta property="article:modified_time" content="2019-07-08T02:27:41+00:00" />
+<meta property="og:updated_time" content="2019-07-08T02:27:41+00:00" />
+<meta property="og:image" content="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh.png" />
+<meta property="og:image:secure_url" content="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="ShadowsocksR 一键脚本（ssr.sh）是逗比根据地站长开发并维护的一个 ShadowsocksR 脚本，脚本除了可以一键安装 SSR 外，还可以限制用户速度、限制端口设备数、一键安装加速（锐速、BBR），是一个功能比较全面的 ShadowsocksR 脚本。" />
+<meta name="twitter:title" content="逗比根据地 ShadowsocksR 一键脚本，自带加速，ssr.sh - V2Ray中文网" />
+<meta name="twitter:image" content="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh.png" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://v2raycn.com/#website","url":"https://v2raycn.com/","name":"V2Ray\u4e2d\u6587\u7f51","potentialAction":{"@type":"SearchAction","target":"https://v2raycn.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"ImageObject","@id":"https://v2raycn.com/65.html#primaryimage","url":"https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh.png","width":400,"height":250,"caption":"ssr.sh"},{"@type":"WebPage","@id":"https://v2raycn.com/65.html#webpage","url":"https://v2raycn.com/65.html","inLanguage":"zh-CN","name":"\u9017\u6bd4\u6839\u636e\u5730 ShadowsocksR \u4e00\u952e\u811a\u672c\uff0c\u81ea\u5e26\u52a0\u901f\uff0cssr.sh - V2Ray\u4e2d\u6587\u7f51","isPartOf":{"@id":"https://v2raycn.com/#website"},"primaryImageOfPage":{"@id":"https://v2raycn.com/65.html#primaryimage"},"datePublished":"2019-07-05T04:18:10+00:00","dateModified":"2019-07-08T02:27:41+00:00","author":{"@id":"https://v2raycn.com/#/schema/person/afee00e11b0d6e64064b916347747332"},"description":"ShadowsocksR \u4e00\u952e\u811a\u672c\uff08ssr.sh\uff09\u662f\u9017\u6bd4\u6839\u636e\u5730\u7ad9\u957f\u5f00\u53d1\u5e76\u7ef4\u62a4\u7684\u4e00\u4e2a ShadowsocksR \u811a\u672c\uff0c\u811a\u672c\u9664\u4e86\u53ef\u4ee5\u4e00\u952e\u5b89\u88c5 SSR \u5916\uff0c\u8fd8\u53ef\u4ee5\u9650\u5236\u7528\u6237\u901f\u5ea6\u3001\u9650\u5236\u7aef\u53e3\u8bbe\u5907\u6570\u3001\u4e00\u952e\u5b89\u88c5\u52a0\u901f\uff08\u9510\u901f\u3001BBR\uff09\uff0c\u662f\u4e00\u4e2a\u529f\u80fd\u6bd4\u8f83\u5168\u9762\u7684 ShadowsocksR \u811a\u672c\u3002","breadcrumb":{"@id":"https://v2raycn.com/65.html#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://v2raycn.com/65.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://v2raycn.com/","url":"https://v2raycn.com/","name":"\u9996\u9875"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://v2raycn.com/shadowsocksr","url":"https://v2raycn.com/shadowsocksr","name":"ShadowsocksR"}},{"@type":"ListItem","position":3,"item":{"@type":"WebPage","@id":"https://v2raycn.com/65.html","url":"https://v2raycn.com/65.html","name":"\u9017\u6bd4\u6839\u636e\u5730 ShadowsocksR \u4e00\u952e\u811a\u672c\uff0c\u81ea\u5e26\u52a0\u901f\uff0cssr.sh"}}]},{"@type":["Person"],"@id":"https://v2raycn.com/#/schema/person/afee00e11b0d6e64064b916347747332","name":"V2Ray\u4e2d\u6587\u7f51","image":{"@type":"ImageObject","@id":"https://v2raycn.com/#authorlogo","url":"https://secure.gravatar.com/avatar/9da0ec65830607522a031a45758de401?s=96&d=mm&r=g","caption":"V2Ray\u4e2d\u6587\u7f51"},"sameAs":[]}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/v2raycn.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://v2raycn.com/wp-includes/css/dist/block-library/style.min.css?ver=5.2.4' type='text/css' media='all' />
+<link rel='stylesheet' id='ez-icomoon-css'  href='https://v2raycn.com/wp-content/plugins/easy-table-of-contents/vendor/icomoon/style.min.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='ez-toc-css'  href='https://v2raycn.com/wp-content/plugins/easy-table-of-contents/assets/css/screen.min.css?ver=1.7' type='text/css' media='all' />
+<style id='ez-toc-inline-css' type='text/css'>
+div#ez-toc-container p.ez-toc-title {font-size: 120%;}div#ez-toc-container p.ez-toc-title {font-weight: 500;}div#ez-toc-container ul li {font-size: 95%;}
+</style>
+<link rel='stylesheet' id='style-css'  href='https://v2raycn.com/wp-content/themes/yusi/style.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://v2raycn.com/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://v2raycn.com/wp-content/themes/yusi/js/jquery.min.js?ver=1.0'></script>
+<script type='text/javascript' src='https://v2raycn.com/wp-content/themes/yusi/js/jquery.js?ver=1.0'></script>
+<link rel='https://api.w.org/' href='https://v2raycn.com/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://v2raycn.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fv2raycn.com%2F65.html" />
+<link rel="alternate" type="text/xml+oembed" href="https://v2raycn.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fv2raycn.com%2F65.html&#038;format=xml" />
+<meta name="keywords" content="BBR, ShadowsocksR, ShadowsocksR 脚本, ssr.sh, 逗比根据地, 锐速, ShadowsocksR">
+<!--[if lt IE 9]><script src="https://v2raycn.com/wp-content/themes/yusi/js/html5.js"></script><![endif]-->
+</head>
+<body class="post-template-default single single-post postid-65 single-format-standard">
+
+<header id="header" class="header">
+<div class="container-inner">
+ <div class="yusi-logo">
+                    <a href="/">
+                        <h1>
+                                                        <span style="font-family:楷体,serif;" class="yusi-mono">V2Ray中文网</span>
+                                                        <span style="font-family:楷体,serif;" class="yusi-bloger">V2Ray_Project V教程分享</span>
+                                                    </h1>
+                    </a>
+    </div>
+</div>
+
+	<div id="nav-header" class="navbar">
+		
+		<ul class="nav">
+			<li id="menu-item-83" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-83"><a href="https://v2raycn.com/v2ray"><i class="fa fa-fire fa-spin"></i>  V2Ray</a>
+<ul class="sub-menu">
+	<li id="menu-item-147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-147"><a href="https://v2raycn.com/176.html">V2Ray 脚本整理</a></li>
+	<li id="menu-item-146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-146"><a href="https://v2raycn.com/87.html">V2Ray 客户端下载</a></li>
+	<li id="menu-item-148" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-148"><a href="https://v2raycn.com/137.html">V2Ray 客户端配置</a></li>
+</ul>
+</li>
+<li id="menu-item-81" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-81"><a href="https://v2raycn.com/shadowsocks"><i class="fa fa-paper-plane"></i> Shadowsocks</a>
+<ul class="sub-menu">
+	<li id="menu-item-253" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-253"><a href="https://v2raycn.com/252.html">SS 脚本整理</a></li>
+	<li id="menu-item-255" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-255"><a href="https://v2raycn.com/79.html">SS 客户端下载</a></li>
+	<li id="menu-item-254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-254"><a href="https://v2raycn.com/249.html">SS 客户端配置</a></li>
+</ul>
+</li>
+<li id="menu-item-82" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-82"><a href="https://v2raycn.com/shadowsocksr"><i class="fa fa-paper-plane-o"></i> ShadowsocksR</a>
+<ul class="sub-menu">
+	<li id="menu-item-221" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-221"><a href="https://v2raycn.com/219.html">SSR 脚本整理</a></li>
+	<li id="menu-item-223" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-223"><a href="https://v2raycn.com/85.html">SSR 客户端下载</a></li>
+	<li id="menu-item-222" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-222"><a href="https://v2raycn.com/216.html">SSR 客户端配置</a></li>
+</ul>
+</li>
+<li id="menu-item-84" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-84"><a href="https://v2raycn.com/vps"><i class="fa fa-tasks fa-spin"></i>  便宜 VPS</a></li>
+<li id="menu-item-149" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-149"><a href="https://v2raycn.com/speedup"><i class="fa fa-flash"></i> VPS 加速</a>
+<ul class="sub-menu">
+	<li id="menu-item-150" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-150"><a href="https://v2raycn.com/96.html">原版 BBR</a></li>
+	<li id="menu-item-269" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-269"><a href="https://v2raycn.com/266.html">锐速破解版</a></li>
+</ul>
+</li>
+<li id="menu-item-224" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-224"><a href="https://v2raycn.com/others"><i class="fa fa-share-alt"></i>  其他分享</a>
+<ul class="sub-menu">
+	<li id="menu-item-225" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-225"><a href="https://v2raycn.com/194.html">iOS 客户端免费下载</a></li>
+	<li id="menu-item-265" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-265"><a href="https://v2raycn.com/258.html">Just My Socks：IP 不会被封的 SS 服务</a></li>
+</ul>
+</li>
+<li style="float:right;">
+                    <div class="toggle-search"><i class="fa fa-search"></i></div>
+<div class="search-expand" style="display: none;"><div class="search-expand-inner"><form method="get" class="searchform themeform" onsubmit="location.href='https://v2raycn.com/search/' + encodeURIComponent(this.s.value).replace(/%20/g, '+'); return false;" action="/"><div> <input type="ext" class="search" name="s" onblur="if(this.value=='')this.value='search...';" onfocus="if(this.value=='search...')this.value='';" value="search..."></div></form></div></div>
+</li>
+		</ul>
+	</div>
+	</div>
+</header>
+<section class="container"><div class="speedbar">
+				<div class="toptip"><strong class="text-success"><i class="fa fa-volume-up"></i> </strong> V2Ray中文网主要分享V2Ray（Project V）的搭建与使用。</div>
+	</div>
+	<div><strong><p id="breadcrumbs-p" style="float: left">当前位置：</p></strong><p id="breadcrumbs"><span><span><a href="https://v2raycn.com/" >首页</a> » <span><a href="https://v2raycn.com/shadowsocksr" >ShadowsocksR</a> » <span class="breadcrumb_last" aria-current="page">逗比根据地 ShadowsocksR 一键脚本，自带加速，ssr.sh</span></span></span></span></p></div>	<div class="content-wrap">
+	<div class="content">
+
+				<header class="article-header">
+			<h1 class="article-title"><a href="https://v2raycn.com/65.html">逗比根据地 ShadowsocksR 一键脚本，自带加速，ssr.sh</a></h1>
+			<div class="meta">
+				<span id="mute-category" class="muted"><i class="fa fa-list-alt"></i><a href="https://v2raycn.com/shadowsocksr"> ShadowsocksR</a></span>				<span class="muted"><i class="fa fa-user"></i> <a href="https://v2raycn.com/author/v2raycn">V2Ray中文网</a></span>
+				<time class="muted"><i class="fa fa-clock-o"></i> 5个月前 (07-05)</time>
+				<span class="muted"><i class="fa fa-eye"></i> 1835℃</span>
+				<span class="muted"><i class="fa fa-comments-o"></i> <a href="https://v2raycn.com/65.html#respond">0评论</a></span>							</div>
+		</header>
+		<article class="article-content">
+			<div id="ez-toc-container" class="ez-toc-wrap-left counter-hierarchy ez-toc-grey">
+<div class="ez-toc-title-container">
+<p class="ez-toc-title">目录</p>
+<span class="ez-toc-title-toggle"><a class="ez-toc-pull-right ez-toc-btn ez-toc-btn-xs ez-toc-btn-default ez-toc-toggle"><i class="ez-toc-glyphicon ez-toc-icon-toggle"></i></a></span></div>
+<nav><ul class="ez-toc-list"><li><a href="#1" title="1、代理服务器购买">1、代理服务器购买</a></li><li><a href="#2" title="2、脚本介绍">2、脚本介绍</a></li><li><a href="#3" title="3、脚本使用">3、脚本使用</a></li><li><a href="#4" title="4、安装加速">4、安装加速</a></li><li><a href="#5" title="5、脚本其他设置">5、脚本其他设置</a></li><li><a href="#6" title="6、安装问题">6、安装问题</a></li></ul></nav></div>
+<p>ShadowsocksR 一键脚本（ssr.sh）是逗比根据地站长开发并维护的一个 ShadowsocksR 脚本，脚本除了可以一键安装 SSR 外，还可以限制用户速度、限制端口设备数、一键安装加速（锐速、BBR），是一个功能比较全面的 ShadowsocksR 脚本。</p>
+<p><img class="aligncenter size-full wp-image-74" src="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh.png" alt="ssr.sh" width="400" height="250" /></p>
+<h2><span class="ez-toc-section" id="1"><span id="1" class="ez-toc-section">1、代理服务器购买</span></span></h2>
+<p>代理服务器推荐：<a target="_blank" rel="nofollow"  target="_blank" rel="nofollow"href="https://v2raycn.com/38.html" data-original-title="" title="">国外科学上网翻墙 VPS 服务器推荐，新手买哪个好？</a></p>
+<p><strong>搬瓦工官网</strong>：</p>
+<p><a title="" target="_blank" rel="nofollow"  target="_blank" rel="nofollow"href="http://aff998.com/bwg" data-original-title=""><img class="size-full wp-image-39 alignleft" src="https://v2raycn.com/wp-content/uploads/2019/06/Bandwagonhost.png" alt="搬瓦工-logo" width="150" height="46"></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>搬瓦工购买与优惠码使用可以参考：<a title="" target="_blank" rel="nofollow"  target="_blank" rel="nofollow"href="https://v2raycn.com/12.html" data-original-title="">搬瓦工购买教程，支持支付宝和微信支付，终身优惠码</a>。</p>
+<p><strong>VULTR 官网</strong>：</p>
+<p><a title="" target="_blank" rel="nofollow"  target="_blank" rel="nofollow"href="http://aff998.com/vultr" data-original-title=""><img class="size-full wp-image-40 alignleft" src="https://v2raycn.com/wp-content/uploads/2019/06/VULTR.png" alt="VULTR-LOGO" width="150" height="46"></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>VULTR 也支持支付宝和微信支付，购买教程：<a title="" target="_blank" rel="nofollow"  target="_blank" rel="nofollow"href="https://v2raycn.com/19.html" data-original-title="">VULTR 购买教程，支持支付宝与微信支付，中文图解教程</a>。</p>
+<p>购买完 VPS 后，只需要通过 Xshell 连接 VPS 即可操作 VPS，包括安装脚本、加速等：<a  target="_blank" rel="nofollow"href="https://v2raycn.com/30.html">利用免费版 Xshell 远程连接你的 Linux VPS，含 Xshell 下载</a>。</p>
+<p>&nbsp;</p>
+<h2><span class="ez-toc-section" id="2">2、脚本介绍</span></h2>
+<p>之前介绍过秋水逸冰的 ShadowsocksR 脚本：<a  target="_blank" rel="nofollow"href="https://v2raycn.com/49.html">秋水逸冰 Shadowsocks 四合一脚本，shadowsocks-all.sh</a>，与其相比，逗比根据地的 ShadowsocksR 脚本除了可以安装 SSR 服务器端之外，还有一些附带功能，包括限制速度、安装加速等，这个脚本的特性总结如下：</p>
+<ul>
+<li>支持 限制 用户速度</li>
+<li>支持 限制 端口设备数</li>
+<li>支持 显示 当前连接IP</li>
+<li>支持 显示 SS/SSR连接+二维码</li>
+<li>支持 切换管理 单/多端口</li>
+<li>支持 一键安装 锐速</li>
+<li>支持 一键安装 BBR</li>
+<li>支持 一键封禁 垃圾邮件(SMAP)/BT/PT</li>
+</ul>
+<p>逗比根据地 ShadowsocksR 一键脚本支持 CentOS 6+，Debian 6+，Ubuntu 14+。</p>
+<p>&nbsp;</p>
+<h2><span class="ez-toc-section" id="3"><span id="3" class="ez-toc-section">3、脚本使用</span></span></h2>
+<p>在 VPS 上依执行以下下载并运行的命令：</p>
+<pre class="prettyprint linenums">wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh &amp;&amp; chmod +x ssr.sh &amp;&amp; bash ssr.sh</pre>
+<p>之后就是 ssr.sh 的管理界面，关于这个 ShadowsocksR 管理界面稍作解释：</p>
+<ul>
+<li>第一部分是关于安装/更新/卸载 ShadowsocksR 的，而 libsodium 的作用是如果你的加密方式选择 chacha20，则需要先安装 libsodium；</li>
+<li>第二部分是限制速度与连接设备的；</li>
+<li>第三部分（选项14）则是一些其他功能，例如一键安装锐速 / BBR 加速。</li>
+</ul>
+<p><img class="aligncenter size-full wp-image-66" src="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh-1.png" alt="ssr.sh" width="682" height="382" /></p>
+<p>输入数字1后就可以开始安装 ShadowsocksR 了，之后就是要你输入一些 ShadowsocksR 的配置，包括端口、密码、加密方式、协议等，如果你不懂的话，<span style="color: #ff0000;">直接选择脚本的默认值即可</span>（直接按回车就是默认值）。这里需要注意的是，如果你选择的加密方式是 <code>salsa20/chacha20-*</code> 系列加密方式，需要额外安装依赖 libsodium ，否则会无法启动 ShadowsocksR：</p>
+<p><img class="aligncenter size-full wp-image-67" src="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh-2.png" alt="ssr.sh" width="822" height="662" /></p>
+<p>之后 ssr.sh 脚本会询问 <code>是否设置 协议插件兼容原版(_compatible)？[Y/n]</code>，直接输入 <code>n</code> 回车即可，一般无需兼容：</p>
+<p><img class="aligncenter size-full wp-image-68" src="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh-3.png" alt="ssr.sh" width="1104" height="655" /></p>
+<p>接下来的三项，是限制 ShadowsocksR 的连接速度与设备数量的，普通用户一般不需要设置，直接回车即可：</p>
+<p><img class="aligncenter size-full wp-image-69" src="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh-4.png" alt="ssr.sh" width="1085" height="227" /></p>
+<p>全部选择完毕后，静静的等待 ssr.sh 安装 ShadowsocksR 即可，如果中途让你安装什么依赖，直接输入 <code>y</code> 安装：</p>
+<p><img class="aligncenter size-full wp-image-70" src="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh-5.png" alt="ssr.sh" width="617" height="102" /></p>
+<p>等大概 10-15 分钟，ShadowsocksR 服务端就安装好了，需要注意的是，因为逗比根据地已经关站了，所以此处的 SSR 二维码无法打开，但是 ShadowsocksR 账号配置信息都是可以用的，配置到客户端就行了：</p>
+<p><img class="aligncenter size-full wp-image-71" src="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh-6.png" alt="ssr.sh" width="1217" height="384" /></p>
+<p>&nbsp;</p>
+<h2><span class="ez-toc-section" id="4"><span id="3" class="ez-toc-section">4、安装加速</span></span></h2>
+<p>ssr.sh 这个脚本自带加速，可以一键按爪给你 BBR 和锐速加速，直接执行运行脚本的命令 <code>bash ssr.sh</code> 即可，之后选择 14 进入其他功能，就可以安装加速了：<img class="aligncenter size-full wp-image-72" src="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh-7.png" alt="ssr.sh" width="676" height="755" /></p>
+<p>&nbsp;</p>
+<h2><span class="ez-toc-section" id="5"><span id="3" class="ez-toc-section">5、脚本其他设置</span></span></h2>
+<p>ssr.sh 脚本的所有设置就是从 <code>bash ssr.sh</code> 开始，只要在当前目录下输入该命令就可以进入 ShadowsocksR 的管理页面，这里你可以更新 ShadowsocksR、卸载 ShadowsocksR、修改限速、修改设置限制等等，可以说逗比根据地 ShadowsocksR 一键脚本的功能还是很全面的。</p>
+<p>&nbsp;</p>
+<h2><span class="ez-toc-section" id="6">6、安装问题</span></h2>
+<p>如果你在安装 SSR 服务端时，出现了 <code>ShadowsocksR 启动失败</code> 的问题，那么可能是你的 libsodium 没有安装，只需要执行 <code>bash ssr.sh</code> 先安装 libsodium，之后再进入管理界面选择10启动 ShadowsocksR 就可以了。</p>
+<p><img class="aligncenter size-full wp-image-73" src="https://v2raycn.com/wp-content/uploads/2019/07/ssr-sh-8.jpg" alt="ssr.sh" width="456" height="37" /></p>
+<p>转载请注明：<a  target="_blank" rel="nofollow"href="https://v2raycn.com">V2Ray中文网</a> &raquo; <a  target="_blank" rel="nofollow"href="https://v2raycn.com/65.html">逗比根据地 ShadowsocksR 一键脚本，自带加速，ssr.sh</a></p>
+
+      
+<div class="article-social">
+			<a href="javascript:;" data-action="ding" data-id="65" id="Addlike" class="action"><i class="fa fa-heart-o"></i>喜欢 (<span class="count">0</span>)</a>	
+</div>
+	</article>	
+				<footer class="article-footer">
+			<div class="article-tags"><i class="fa fa-tags"></i><a href="https://v2raycn.com/tag/bbr" rel="tag">BBR</a><a href="https://v2raycn.com/tag/shadowsocksr" rel="tag">ShadowsocksR</a><a href="https://v2raycn.com/tag/shadowsocksr-%e8%84%9a%e6%9c%ac" rel="tag">ShadowsocksR 脚本</a><a href="https://v2raycn.com/tag/ssr-sh" rel="tag">ssr.sh</a><a href="https://v2raycn.com/tag/%e9%80%97%e6%af%94%e6%a0%b9%e6%8d%ae%e5%9c%b0" rel="tag">逗比根据地</a><a href="https://v2raycn.com/tag/%e9%94%90%e9%80%9f" rel="tag">锐速</a></div></footer>
+	<nav class="article-nav">
+			<span class="article-nav-prev"><i class="fa fa-angle-double-left"></i> <a href="https://v2raycn.com/49.html" rel="prev">秋水逸冰 Shadowsocks 四合一脚本，shadowsocks-all.sh</a></span>
+			<span class="article-nav-next"><a href="https://v2raycn.com/75.html" rel="next">V2Ray 配置文件格式详解，如何定位配置文件中的错误？</a>  <i class="fa fa-angle-double-right"></i></span>
+		</nav>
+
+		<div class="related_top">
+			<div class="related_posts"><ul class="related_img">
+
+		<li class="related_box"  >
+		<a href="https://v2raycn.com/266.html" title="VPS 一键安装并开启锐速破解版加速教程" target="_blank">
+<img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/08/91yun-ruisu.png&h=110&w=185&q=90&zc=1&ct=1" alt="VPS 一键安装并开启锐速破解版加速教程" />	<br><span class="r_title">VPS 一键安装并开启锐速破解版加速教程</span></a>
+		</li>
+	
+		<li class="related_box"  >
+		<a href="https://v2raycn.com/219.html" title="好用的 ShadowsocksR(SSR) 一键脚本整理与分享" target="_blank">
+<img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/07/ssr-scripts-1.png&h=110&w=185&q=90&zc=1&ct=1" alt="好用的 ShadowsocksR(SSR) 一键脚本整理与分享" />	<br><span class="r_title">好用的 ShadowsocksR(SSR) 一键脚本整理与分享</span></a>
+		</li>
+	
+		<li class="related_box"  >
+		<a href="https://v2raycn.com/96.html" title="VPS 一键开启原版谷歌 BBR 加速教程，bbr.sh" target="_blank">
+<img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/07/bbr.png&h=110&w=185&q=90&zc=1&ct=1" alt="VPS 一键开启原版谷歌 BBR 加速教程，bbr.sh" />	<br><span class="r_title">VPS 一键开启原版谷歌 BBR 加速教程，bbr.sh</span></a>
+		</li>
+	
+		<li class="related_box"  >
+		<a href="https://v2raycn.com/89.html" title="233 V2Ray 一键脚本，自带管理与加速功能，v2ray.sh" target="_blank">
+<img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/07/233-v2ray.png&h=110&w=185&q=90&zc=1&ct=1" alt="233 V2Ray 一键脚本，自带管理与加速功能，v2ray.sh" />	<br><span class="r_title">233 V2Ray 一键脚本，自带管理与加速功能，v2ray.sh</span></a>
+		</li>
+	</ul>
+
+<div class="relates">
+<ul>
+<li><i class="fa fa-minus"></i><a href="https://v2raycn.com/266.html">VPS 一键安装并开启锐速破解版加速教程</a></li><li><i class="fa fa-minus"></i><a href="https://v2raycn.com/219.html">好用的 ShadowsocksR(SSR) 一键脚本整理与分享</a></li><li><i class="fa fa-minus"></i><a href="https://v2raycn.com/96.html">VPS 一键开启原版谷歌 BBR 加速教程，bbr.sh</a></li><li><i class="fa fa-minus"></i><a href="https://v2raycn.com/89.html">233 V2Ray 一键脚本，自带管理与加速功能，v2ray.sh</a></li><li><i class="fa fa-minus"></i><a href="https://v2raycn.com/49.html">秋水逸冰 Shadowsocks 四合一脚本，shadowsocks-all.sh</a></li><li><i class="fa fa-minus"></i><a href="https://v2raycn.com/52.html">ShadowsocksR(SSR) 一键安装脚本，shadowsocksR.sh</a></li><li><i class="fa fa-minus"></i><a target="_blank" href="https://v2raycn.com/216.html">Windows/Mac/Android/iOS ShadowsocksR(SSR) 客户端配置教程</a></li><li><i class="fa fa-minus"></i><a target="_blank" href="https://v2raycn.com/208.html">ShadowsocksR（SSR）Mac 客户端配置教程：ShadowsocksX-NG-R</a></li>
+</ul></div></div>		</div>
+						<div id="respond" class="no_webshot">
+		<form action="https://v2raycn.com/wp-comments-post.php" method="post" id="commentform">
+		
+		<div class="comt-title">
+			<div class="comt-avatar pull-left">
+				<img alt='' src='https://secure.gravatar.com/avatar/?s=54&#038;d=https%3A%2F%2Fv2raycn.com%2Fwp-content%2Fthemes%2Fyusi%2Fimg%2Fdefault.png&#038;r=g' srcset='https://secure.gravatar.com/avatar/?s=108&#038;d=https%3A%2F%2Fv2raycn.com%2Fwp-content%2Fthemes%2Fyusi%2Fimg%2Fdefault.png&#038;r=g 2x' class='avatar avatar-54 photo avatar-default' height='54' width='54' />			</div>
+			<div class="comt-author pull-left">
+			发表我的评论			</div>
+			<a id="cancel-comment-reply-link" class="pull-right" href="javascript:;">取消评论</a>
+		</div>
+		
+		<div class="comt">
+			<div class="comt-box">
+				<textarea placeholder="写点什么..." class="input-block-level comt-area" name="comment" id="comment" cols="100%" rows="3" tabindex="1" onkeydown="if(event.ctrlKey&amp;&amp;event.keyCode==13){document.getElementById('submit').click();return false};"></textarea>
+				<div class="comt-ctrl">
+					<button class="btn btn-primary pull-right" type="submit" name="submit" id="submit" tabindex="5"><i class="fa fa-check-square-o"></i> 提交评论</button>
+					<div class="comt-tips pull-right"><input type='hidden' name='comment_post_ID' value='65' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d32ddc582f" /></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="89"/></p></div>
+					<span data-type="comment-insert-smilie" class="muted comt-smilie"><i class="fa fa-smile-o"></i> 表情</span>
+					<span class="muted comt-mailme"><label for="comment_mail_notify" class="checkbox inline" style="padding-top:0"><input type="checkbox" name="comment_mail_notify" id="comment_mail_notify" value="comment_mail_notify" checked="checked"/>有人回复时邮件通知我</label></span>
+				</div>
+			</div>
+
+												<div class="comt-comterinfo" id="comment-author-info" >
+						<h4>Hi，您需要填写昵称和邮箱！</h4>
+						<ul>
+							<li class="form-inline"><label class="hide" for="author">昵称</label><input class="ipt" type="text" name="author" id="author" value="" tabindex="2" placeholder="昵称"><span class="help-inline">昵称 (必填)</span></li>
+							<li class="form-inline"><label class="hide" for="email">邮箱</label><input class="ipt" type="text" name="email" id="email" value="" tabindex="3" placeholder="邮箱"><span class="help-inline">邮箱 (必填)</span></li>
+							<li class="form-inline"><label class="hide" for="url">网址</label><input class="ipt" type="text" name="url" id="url" value="" tabindex="4" placeholder="网址"><span class="help-inline">网址</span></li>
+						</ul>
+					</div>
+									</div>
+
+		
+	</form>
+	</div>
+			</div>
+</div>
+<aside class="sidebar">	
+<!--<div class="widget widget_text"><div class="textwidget"><div class="social">-->
+<!---->
+<!---->
+<!--</div></div></div>-->
+
+<div class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><div style="text-align:center;padding: 10px 20px 5px;display: block;">
+	<a class="wid-xiaobai" style="background-color: #03A9F4;padding-top:17px;padding-bottom:17px;font-size: 18px;font-weight: bold;" target="_blank" href="https://v2raycn.com/258.html" rel="noopener noreferrer">Just My Socks：IP 不会被封的 SS</a>
+<a class="wid-xiaobai" style="background-color: #03A9F4;padding-top:15px;padding-bottom:15px;font-size: 16px;font-weight: bold;" target="_blank" href="https://v2raycn.com/176.html" rel="noopener noreferrer">V2Ray 一键脚本整理与分享</a>
+<a class="wid-xiaobai" style="background-color: #1ABCFF;padding-top: 7px;padding-bottom: 7px;font-weight: bold;font-size: 15px;" target="_blank" href="https://v2raycn.com/87.html" rel="noopener noreferrer">V2Ray 客户端下载</a>
+<a class="wid-xiaobai" style="background-color: #1ABCFF;padding-top: 7px;padding-bottom: 7px;font-weight: bold;font-size: 15px;" target="_blank" href="https://v2raycn.com/137.html" rel="noopener noreferrer">V2Ray 客户端配置</a>
+<a class="wid-xiaobai" style="background-color: #1ABCF7;" target="_blank" href="https://v2raycn.com/219.html" rel="noopener noreferrer">SSR 一键脚本整理与分享</a>
+<a class="wid-xiaobai" style="background-color: #1ABCED;" target="_blank" href="https://v2raycn.com/85.html" rel="noopener noreferrer">SSR 客户端下载</a>
+<a class="wid-xiaobai" style="background-color: #1ABCE9;" target="_blank" href="https://v2raycn.com/216.html" rel="noopener noreferrer">SSR 客户端配置</a>
+	<a class="wid-xiaobai" style="background-color: #1ABCD9;" target="_blank" href="https://v2raycn.com/252.html" rel="noopener noreferrer">SS 一键脚本整理与分享</a>
+<a class="wid-xiaobai" style="background-color: #1ABCD4;" target="_blank" href="https://v2raycn.com/79.html" rel="noopener noreferrer">SS 客户端下载</a>
+<a class="wid-xiaobai" style="background-color: #1ABCCF;" target="_blank" href="https://v2raycn.com/249.html" rel="noopener noreferrer">SS 客户端配置</a>
+<a class="wid-xiaobai" style="background-color: #1ABCE7;" target="_blank" href="https://v2raycn.com/194.html" rel="noopener noreferrer">iOS 代理客户端免费下载方式</a>
+</div></div></div><div class="widget d_postlist"><div class="title"><h2>最近更新</h2></div><ul><li><a href="https://v2raycn.com/266.html" title="VPS 一键安装并开启锐速破解版加速教程" ><span class="thumbnail"><img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/08/91yun-ruisu.png&h=64&w=100&q=90&zc=1&ct=1" alt="VPS 一键安装并开启锐速破解版加速教程" /></span><span class="text">VPS 一键安装并开启锐速破解版加速教程</span><span class="muted">2019-08-10</span><span class="muted"></span></a></li>
+<li><a href="https://v2raycn.com/258.html" title="Just My Socks：搬瓦工官方出品的 Shadowsocks 服务，保证 IP 不被墙" ><span class="thumbnail"><img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/08/just-my-socks.png&h=64&w=100&q=90&zc=1&ct=1" alt="Just My Socks：搬瓦工官方出品的 Shadowsocks 服务，保证 IP 不被墙" /></span><span class="text">Just My Socks：搬瓦工官方出品的 Shadowsocks 服务，保证 IP 不被墙</span><span class="muted">2019-08-08</span><span class="muted"></span></a></li>
+<li><a href="https://v2raycn.com/252.html" title="好用的 Shadowsocks(SS) 一键脚本整理与分享" ><span class="thumbnail"><img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/08/ss-scripts.png&h=64&w=100&q=90&zc=1&ct=1" alt="好用的 Shadowsocks(SS) 一键脚本整理与分享" /></span><span class="text">好用的 Shadowsocks(SS) 一键脚本整理与分享</span><span class="muted">2019-08-07</span><span class="muted"></span></a></li>
+<li><a href="https://v2raycn.com/249.html" title="Windows/Mac/Android/iOS Shadowsocks(SS) 客户端配置教程" ><span class="thumbnail"><img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/08/ss-clients-settings.png&h=64&w=100&q=90&zc=1&ct=1" alt="Windows/Mac/Android/iOS Shadowsocks(SS) 客户端配置教程" /></span><span class="text">Windows/Mac/Android/iOS Shadowsocks(SS) 客户端配置教程</span><span class="muted">2019-08-06</span><span class="muted"></span></a></li>
+<li><a href="https://v2raycn.com/237.html" title="Shadowsocks（SS）iOS 客户端配置教程：Potatso Lite / Shadowrocket" ><span class="thumbnail"><img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/08/ss-ios-clients.png&h=64&w=100&q=90&zc=1&ct=1" alt="Shadowsocks（SS）iOS 客户端配置教程：Potatso Lite / Shadowrocket" /></span><span class="text">Shadowsocks（SS）iOS 客户端配置教程：Potatso Lite / Shadowrocket</span><span class="muted">2019-08-05</span><span class="muted"></span></a></li>
+<li><a href="https://v2raycn.com/236.html" title="Shadowsocks（SS）Android 客户端(影梭)配置教程" ><span class="thumbnail"><img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/08/ss-android-clients.png&h=64&w=100&q=90&zc=1&ct=1" alt="Shadowsocks（SS）Android 客户端(影梭)配置教程" /></span><span class="text">Shadowsocks（SS）Android 客户端(影梭)配置教程</span><span class="muted">2019-08-04</span><span class="muted"></span></a></li>
+<li><a href="https://v2raycn.com/235.html" title="Shadowsocks（SS）Mac 客户端配置教程：ShadowsocksX-NG" ><span class="thumbnail"><img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/08/ss-mac-clients.png&h=64&w=100&q=90&zc=1&ct=1" alt="Shadowsocks（SS）Mac 客户端配置教程：ShadowsocksX-NG" /></span><span class="text">Shadowsocks（SS）Mac 客户端配置教程：ShadowsocksX-NG</span><span class="muted">2019-08-03</span><span class="muted"></span></a></li>
+<li><a href="https://v2raycn.com/226.html" title="Shadowsocks（SS）Windows 客户端配置教程" ><span class="thumbnail"><img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/08/ss-windows-clients.png&h=64&w=100&q=90&zc=1&ct=1" alt="Shadowsocks（SS）Windows 客户端配置教程" /></span><span class="text">Shadowsocks（SS）Windows 客户端配置教程</span><span class="muted">2019-08-02</span><span class="muted"></span></a></li>
+<li><a href="https://v2raycn.com/219.html" title="好用的 ShadowsocksR(SSR) 一键脚本整理与分享" ><span class="thumbnail"><img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/07/ssr-scripts-1.png&h=64&w=100&q=90&zc=1&ct=1" alt="好用的 ShadowsocksR(SSR) 一键脚本整理与分享" /></span><span class="text">好用的 ShadowsocksR(SSR) 一键脚本整理与分享</span><span class="muted">2019-07-31</span><span class="muted"></span></a></li>
+<li><a href="https://v2raycn.com/216.html" title="Windows/Mac/Android/iOS ShadowsocksR(SSR) 客户端配置教程" ><span class="thumbnail"><img src="https://v2raycn.com/wp-content/themes/yusi/timthumb.php?src=https://v2raycn.com/wp-content/uploads/2019/07/ssr-clients-settings.png&h=64&w=100&q=90&zc=1&ct=1" alt="Windows/Mac/Android/iOS ShadowsocksR(SSR) 客户端配置教程" /></span><span class="text">Windows/Mac/Android/iOS ShadowsocksR(SSR) 客户端配置教程</span><span class="muted">2019-07-28</span><span class="muted"></span></a></li>
+</ul></div><div class="widget d_tag"><div class="title"><h2>标签云</h2></div><div class="d_tags"><a title="7个话题" href="https://v2raycn.com/tag/v2ray-%e5%ae%a2%e6%88%b7%e7%ab%af">V2Ray 客户端 (7)</a><a title="6个话题" href="https://v2raycn.com/tag/%e7%a7%8b%e6%b0%b4%e9%80%b8%e5%86%b0">秋水逸冰 (6)</a><a title="6个话题" href="https://v2raycn.com/tag/shadowsocks-%e5%ae%a2%e6%88%b7%e7%ab%af">Shadowsocks 客户端 (6)</a><a title="6个话题" href="https://v2raycn.com/tag/shadowrocket">Shadowrocket (6)</a><a title="6个话题" href="https://v2raycn.com/tag/shadowsocksr-%e5%ae%a2%e6%88%b7%e7%ab%af">ShadowsocksR 客户端 (6)</a><a title="5个话题" href="https://v2raycn.com/tag/shadowsocks-%e8%84%9a%e6%9c%ac">Shadowsocks 脚本 (5)</a><a title="4个话题" href="https://v2raycn.com/tag/v2ray-%e8%84%9a%e6%9c%ac">V2Ray 脚本 (4)</a><a title="4个话题" href="https://v2raycn.com/tag/shadowsocks">Shadowsocks (4)</a><a title="4个话题" href="https://v2raycn.com/tag/shadowsocksr-%e8%84%9a%e6%9c%ac">ShadowsocksR 脚本 (4)</a><a title="4个话题" href="https://v2raycn.com/tag/v2ray-%e4%b8%80%e9%94%ae%e8%84%9a%e6%9c%ac">V2Ray 一键脚本 (4)</a><a title="3个话题" href="https://v2raycn.com/tag/shadowsocksr">ShadowsocksR (3)</a><a title="3个话题" href="https://v2raycn.com/tag/bbr">BBR (3)</a><a title="3个话题" href="https://v2raycn.com/tag/%e9%94%90%e9%80%9f">锐速 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/shadowsocks-%e7%94%b5%e8%84%91%e5%ae%a2%e6%88%b7%e7%ab%af">Shadowsocks 电脑客户端 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/shadowsocks-%e6%89%8b%e6%9c%ba%e5%ae%a2%e6%88%b7%e7%ab%af">Shadowsocks 手机客户端 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/shadowsocks-ios-%e5%ae%a2%e6%88%b7%e7%ab%af">Shadowsocks iOS 客户端 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/shadowsocksr-ios-%e5%ae%a2%e6%88%b7%e7%ab%af">ShadowsocksR iOS 客户端 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/shadowsocksr-%e6%89%8b%e6%9c%ba%e5%ae%a2%e6%88%b7%e7%ab%af">ShadowsocksR 手机客户端 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/shadowsocksr-%e7%94%b5%e8%84%91%e5%ae%a2%e6%88%b7%e7%ab%af">ShadowsocksR 电脑客户端 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/v2ray-ios-%e5%ae%a2%e6%88%b7%e7%ab%af">V2Ray iOS 客户端 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/v2ray-windows-%e5%ae%a2%e6%88%b7%e7%ab%af">V2Ray Windows 客户端 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/v2ray-windows-%e5%ae%a2%e6%88%b7%e7%ab%af%e4%bd%bf%e7%94%a8%e6%95%99%e7%a8%8b">V2Ray Windows 客户端使用教程 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/v2ray-windows-%e5%ae%a2%e6%88%b7%e7%ab%af%e9%85%8d%e7%bd%ae%e6%95%99%e7%a8%8b">V2Ray Windows 客户端配置教程 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/v2ray-%e6%90%ad%e5%bb%ba%e6%95%99%e7%a8%8b">V2Ray 搭建教程 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/shadowrocket-%e4%bd%bf%e7%94%a8%e6%95%99%e7%a8%8b">Shadowrocket 使用教程 (3)</a><a title="3个话题" href="https://v2raycn.com/tag/potatso-lite">Potatso Lite (3)</a><a title="2个话题" href="https://v2raycn.com/tag/v2ray">V2Ray (2)</a><a title="2个话题" href="https://v2raycn.com/tag/v2ray-%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6">V2Ray 配置文件 (2)</a><a title="2个话题" href="https://v2raycn.com/tag/v2ray-%e9%85%8d%e7%bd%ae%e6%96%87%e4%bb%b6%e5%9c%a8%e7%ba%bf%e7%94%9f%e6%88%90%e5%99%a8">V2Ray 配置文件在线生成器 (2)</a><a title="2个话题" href="https://v2raycn.com/tag/shadowsocks-python">Shadowsocks-Python (2)</a></div></div></aside></section>
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="copyright pull-left">
+            <a href="https://v2raycn.com">V2Ray中文网</a> 版权所有，保留一切权利 · <a href="https://v2raycn.com/sitemap_index.xml" title="站点地图">Sitemap</a>   ·   基于WordPress构建   © 2018-2019  ·   托管于 <a rel="nofollow" target="_blank" href="http://aff998.com/bwg">搬瓦工</a>
+        </div>
+        <div class="trackcode pull-right">
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142585455-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-142585455-1');
+</script>        </div>
+    </div>
+</footer>
+
+<script type='text/javascript' src='https://v2raycn.com/wp-includes/js/wp-embed.min.js?ver=5.2.4'></script>
+<script type='text/javascript' src='https://v2raycn.com/wp-content/plugins/easy-table-of-contents/vendor/smooth-scroll/jquery.smooth-scroll.min.js?ver=1.5.5'></script>
+<script type='text/javascript' src='https://v2raycn.com/wp-content/plugins/easy-table-of-contents/vendor/js-cookie/js.cookie.min.js?ver=2.0.3'></script>
+<script type='text/javascript' src='https://v2raycn.com/wp-content/plugins/easy-table-of-contents/vendor/sticky-kit/jquery.sticky-kit.min.js?ver=1.9.2'></script>
+<script type='text/javascript' src='https://v2raycn.com/wp-content/plugins/easy-table-of-contents/vendor/waypoints/jquery.waypoints.min.js?ver=1.9.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ezTOC = {"smooth_scroll":"1","visibility_hide_by_default":"1","width":"auto","scroll_offset":"30"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://v2raycn.com/wp-content/plugins/easy-table-of-contents/assets/js/front.min.js?ver=1.7'></script>
+<script async="async" type='text/javascript' src='https://v2raycn.com/wp-content/plugins/akismet/_inc/form.js?ver=4.1.2'></script>
+</body>
+</html>
